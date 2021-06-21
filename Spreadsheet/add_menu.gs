@@ -12,10 +12,12 @@
 function onOpen() {
   var menuName = 'ダイアログサンプル'; // メニュー名
   var menuEntries = [
-    { name: 'ダイアログのテスト1', functionName: 'sampleDialog1' }, //  { name: "メニュー名1", functionName: "呼び出す関数名1" },
+    { name: 'ダイアログのテスト1', functionName: 'sampleDialog1' }, // { name: "メニュー名1", functionName: "呼び出す関数名1" }
     null, // 区切り線
-    { name: 'ダイアログのテスト2', functionName: 'sampleDialog2' }, //  { name: "メニュー名2", functionName: "呼び出す関数名2" },
-    { name: 'ダイアログのテスト3', functionName: 'sampleDialog3' }  //  { name: "メニュー名2", functionName: "呼び出す関数名3" },
+    { name: 'ダイアログのテスト2', functionName: 'sampleDialog2' }, // { name: "メニュー名2", functionName: "呼び出す関数名2" }
+    { name: 'ダイアログのテスト3', functionName: 'sampleDialog3' }, // { name: "メニュー名3", functionName: "呼び出す関数名3" }
+    null,
+    { name: 'ダイアログのテスト4', functionName: 'sampleDialog4' }, // { name: "メニュー名4", functionName: "呼び出す関数名4" }
   ];
 
   SpreadsheetApp.getActive().addMenu(menuName, menuEntries);
