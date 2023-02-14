@@ -24,4 +24,3 @@ scratch のサンプルなども作成しています。
 <https://scratch.mit.edu/users/caoring/>
 
 長年主婦をしていましたが、現場復帰への肩慣らしも兼ねておりますので、ご要望やアドバイスなど歓迎いたします。</br>
-caoring0kk_at_gmail.com (\_at\_ はアットマーク)
